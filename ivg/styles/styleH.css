@@ -322,7 +322,27 @@ footer {
   margin: 10px;
 }
 .product {
-  display: block;
-  margin: 20px auto;
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.product img {
+  margin: 20px;
+  width: 300px;
+}
+
+.product figcaption {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 750px) {
+  .product {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .product img {
+    height: 300px;
+    width: 300px;
+  }
 }
