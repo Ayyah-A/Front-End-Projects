@@ -313,8 +313,9 @@ footer {
 ------------------------------------------------- */
 .productMain {
   padding: 20px;
-  background-color: #703f14;
-  color: wheat;
+  /* background-color: #703f14; */
+  background: linear-gradient(20deg, #f7d1b0, #703f14);
+  color: rgb(77, 51, 4);
   text-align: center;
 }
 .productMain h1 {
