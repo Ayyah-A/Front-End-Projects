@@ -282,6 +282,7 @@ This section is for the Blog Section of the Home Page.
     margin: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .product img {
